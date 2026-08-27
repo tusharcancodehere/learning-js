@@ -13,3 +13,4 @@ function getUserInfo(user){
     return `Name: ${user.name}, Age: ${user.age}, Email: ${user.email}, City: ${user.city}, Logged In: ${user.isLoggedIn}, Last Login: ${user.lastLogin}`;
 }
 console.log(getUserInfo(Jsuser));
+console.log(`Hello, ${Jsuser.name}`);
